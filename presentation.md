@@ -26,7 +26,7 @@ Personal Stuff:
 
 ---
 
-# About Me: Profesional Stuff
+# About Me: Professional Stuff
 
 - **Education:** 2004 Iowa State University Grad. w/ B.A. Info. Systems 
 - **Current Role:** Lead Software Engineer @ FreeWheel
@@ -44,11 +44,11 @@ I'm just a **developer**!
 *Just like you!*
 
 <!-- 
- I even created this presntation with Markdown
+ I even created this presentation with Markdown
  TODO: Elaborate on why I'm here:  
   - GOAL: Reveal to the lay developer the basics of design systems.  
-  Narative: Reading Refacotring 
-  Share about Refacorinng UI 
+  Narrative: Reading Refactoring 
+  Share about Refactoring UI 
  -->
 
 ---
@@ -367,7 +367,7 @@ input[type='text'] {
 
 ---
 
-## Commponent Example: Card
+## Component Example: Card
 
 <div class='grid-2-col'>
 <div>
@@ -405,7 +405,7 @@ input[type='text'] {
 <!-- _class: lead -->
 # What are Patterns?
 
-Resuable combination of the design system's **components** that are composed using a layout that adheres to the design system's **foundations**.
+Reusable combination of the design system's **components** that are composed using a layout that adheres to the design system's **foundations**.
 
 ---
 
@@ -452,6 +452,6 @@ Resuable combination of the design system's **components** that are composed usi
 
 # Conclusion
 
-Designs systems are constraints that allow developers to build consistent user expereinces across applications.
+Designs systems are constraints that allow developers to build consistent user experiences across applications.
 
 These tools enable us to work smarter... not harder
