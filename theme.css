@@ -53,7 +53,8 @@ h2 strong,
 h3 strong,
 h4 strong,
 h5 strong,
-p strong {
+p strong,
+li strong {
     color: var(--color-accent-400);
 }
 

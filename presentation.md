@@ -12,6 +12,12 @@ html: true
 
 About Design Systems
 
+<!-- 
+
+OPENING NOTE!  I'd love to chat and answer questions.  I'd love to make this very interactive But I am extremely mindful of there are more speakers left, and a big reason we come here is to chat and network with others.  So, I might take a couple questions at the end if time allows, BUT please to come find me after and I can answer any questions you have and we can get to know each other.
+
+-->
+
 ---
 
 # About Me
@@ -38,8 +44,8 @@ Personal Stuff:
 ---
 
 <!-- _class: lead -->
-# I'm **NOT** a designer!
-I'm just a **developer**!  
+# I am **NOT** a designer!
+I am a **developer**!  
 
 *Just like you!*
 
@@ -279,6 +285,19 @@ You need **MORE COLORS** than you think!
 
 ---
 
+<!-- _class: lead -->
+# Constraints and **Designers** are your friends
+
+<!-- 
+
+Tell story about collaborating with designers on discrepancies.  
+
+Be sure to mention how Kori will probably be elaborating on this topic next.
+
+-->
+
+---
+
 # Components
 
 Lego bricks used to compose the user experience.
@@ -432,7 +451,6 @@ Reusable combination of the design system's **components** that are composed usi
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--spacing-lg);
-    justify-content: center;
 }
 </style>
 
@@ -450,8 +468,8 @@ Reusable combination of the design system's **components** that are composed usi
 
 ---
 
-# Conclusion
+# Wrap Up!
 
-Designs systems are constraints that allow developers to build consistent user experiences across applications.
-
-These tools enable us to work smarter... not harder
+- Constraints are good!
+- Design System Basics: **Foundations**, **Components**, **Patterns**
+- Designers are your friend!
