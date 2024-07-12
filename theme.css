@@ -65,7 +65,7 @@ li strong {
 
 /* Component/Demo classes */
 .color-demo {
-    padding: var(--spacing-sm);
+    padding: 4px var(--spacing-md);
 }
 
 .spacing-demo {
