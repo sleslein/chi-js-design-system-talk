@@ -13,8 +13,11 @@ html: true
 About Design Systems
 
 <!-- 
+Comment: Hi!  I'm Shea Leslein, and I;m here to share the good news about design systems with you!
 
-OPENING NOTE!  I'd love to chat and answer questions.  I'd love to make this very interactive But I am extremely mindful of there are more speakers left, and a big reason we come here is to chat and network with others.  So, I might take a couple questions at the end if time allows, BUT please to come find me after and I can answer any questions you have and we can get to know each other.
+OPENING NOTE!:  I'd love to make this very interactive. But I am extremely mindful of there are 3 more speakers after me, and a big reason we all come here is to chat and network with others.  So I'm planning to field 0 questions until I conclude my schpeel.  But if there is time left, I can field a couple.  Regardless, I'd love meeting you all after so feel free to come see with any questions!
+
+Comment:  Lets get Started!
 
 -->
 
@@ -22,6 +25,13 @@ OPENING NOTE!  I'd love to chat and answer questions.  I'd love to make this ver
 
 # About Me
 
+<!-- 
+Fam: Married 16 years, 4 kids, 15, 14, 12, 10
+Community is important.  JS Meet-up has been wonderful, community of people at church.  
+    - The title of this talk as actually inspired by something my Pastor said during a sermon.  Please don't tell him I day dream during his sermons.
+Hobbies: Archery, Blood Bowl.
+ -->
+ 
 Personal Stuff:
 - Meet the Fam!
 - Community & Church
@@ -29,16 +39,15 @@ Personal Stuff:
 
 ![bg right](IMG_3296.JPG)
 
-<!-- 
-Fam: Married 16 years, 4 kids, 15, 14, 12, 10
-Community is important.  JS Meet-up has been wonderful, community of people at church.  
-    - The title of this talk as actually inspired by something my Pastor said during a sermon.  Please don't tell him I day dream during his sermons.
-Hobbies: Archery, Blood Bowl.
- -->
-
 ---
 
 # About Me: Professional Stuff
+
+<!--
+Education: I fully recognize that most of you care where I graduated from 20 years ago.  But I;m a proud Iowan! segways to experience
+Experience: I've been a full stack developer for 20 years
+Current Role: with Freewheel for almost 14 years. Currently working along side design team in providing a design system to FreeWheel
+-->
 
 - **Education:** 2004 Iowa State University Grad. w/ B.A. Info. Systems 
 - **Experience:** Nearly 20 Years as “Full-Stack” Developer
@@ -47,19 +56,7 @@ Hobbies: Archery, Blood Bowl.
 <!-- _class: lead -->
 *... So yea ...*
 
-<!--
-Education: I fully recognize that most of you care where I graduated from 20 years ago.  But I;m a proud Iowan! segways to experience
-Experience: I've been a full stack developer for 20 years
-Current Role: with Freewheel for almost 14 years. Currently working along side design team in providing a design system to FreeWheel
--->
-
 ---
-
-<!-- _class: lead -->
-# I am **NOT** a designer!
-I am a **developer**!  
-
-*Just like you!*
 
 <!-- 
  # I'm not a designer
@@ -77,13 +74,13 @@ The book outlines some many great things, and I'll cover some of the main points
 
 
 -->
+<!-- _class: lead -->
+# I am **NOT** a designer!
+I am a **developer**!  
+
+*Just like you!*
 
 ---
-
-<!-- _class: lead -->
-> **Systematize everything!** The more systems you have in place, the faster you’ll be able to work and the less you’ll second guess your own decisions.
-
-*– Refactoring UI*
 
 <!--
 # Systemize everything
@@ -91,7 +88,7 @@ The book outlines some many great things, and I'll cover some of the main points
 Comment:  Here's a main point from Refactoring UI
 Read: It.
 
-Narrative: Reading this was a formative moment for me.  When I read this disparate ideas and things I had been hearing started clicking together.  I had this revalation... wait.... design is a system?~!?!?  Then, wait!?!? We have a design system at work!  
+Narrative: Reading this was a formative moment for me.  When I read this disparate ideas and things I had been hearing started clicking together.  I had this revelation... wait.... design is a system?~!?!?  Then, wait!?!? We have a design system at work!  
 
 Design systems are a thing!  I have to learn about and understand these things for me.  When I read this disparate ideas and things I had been hearing started clicking together.  I had this revalation... wait.... design is a system?~!?!?  Then, wait!?!? We have a design system at work!  
 
@@ -100,15 +97,14 @@ Design systems are a thing!  I have to learn about and understand these things!
 So, here I stand be before you today.... with something to share!
 -->
 
+<!-- _class: lead -->
+> **Systematize everything!** The more systems you have in place, the faster you’ll be able to work and the less you’ll second guess your own decisions.
+
+*– Refactoring UI*
+
 ---
 
-# What is a Design System?
-
-<!-- _class: lead -->
-A design system is a box of tools used to build consistent user experiences.  The tools include well defined **foundations**, **components**, and **patterns**.
-
 <!-- 
-
 # What is a design system
 
 Comment:  This definition is from my good friend Nath.  She is a designer.  She leads the design system efforts at FreeWheel.  She's awesome!  Ask Nath to wave.  If you want to learn about how to be a better designer talk to her!
@@ -118,10 +114,26 @@ Comment:  This definition includes more than just the what a design system is...
 Comment:  But consistent UX isn't the only benefit.  Design systems have amazing positive impact on developers to!  As you'll see, a design system can turn allow any old schlub like me to implement good designs very quickly!  
 
 So, let's start digging into the 3 aspects of a design system.
-
 -->
 
+# What is a Design System?
+
+<!-- _class: lead -->
+A design system is a box of tools used to build consistent user experiences.  The tools include well defined **foundations**, **components**, and **patterns**.
+
+
 ---
+
+<!-- 
+# Foundations 
+Comment: These are the foundations of a design system. Color is pretty self explanatory.  Typography refers to the text elements of your UI; the font and size of your text. Spacing refers to the white space elements.  In CSS terms, thing padding, margins, flex/grid gaps etc. Any system of even a small significance is going to logos, and icons too. 
+
+Comment:  One chief goal of the foundations is to ensure visual consistency across the whole system.  Design system and application system.  
+
+Note: We will focus on Typography, colors, and spacing.
+
+Comment:  Seems pretty straight forward right?  I think you'll see the picture is bigger than you might realize.
+-->
 
 # Foundations
 
@@ -131,27 +143,9 @@ So, let's start digging into the 3 aspects of a design system.
 - Icons/Logos
 - Grid System/Layouts
 
-<!-- 
-
-# Foundations 
-Comment: These are the foundations of a design system. Color is pretty self explanatory.  Typography refers to the text elements of your UI; the font and size of your text. Spacing refers to the white space elements.  In CSS terms, thing padding, margins, flex/grid gaps etc. Any system of even a small significance is going to logos, and icons too. 
-
-Comment:  One chief goal of the foundations is to ensure visual consistency across the whole system.  Design system and application system.  
-
-Note: We will focus on Typography, colors, and spacing.
-
-Comment:  Seems pretty straight forward right?  I think you'll see the picture is bigger than you might realize.
-
--->
-
 ---
 
 ## Foundations: Constraints 
-
-<!-- _class: lead -->
-> When you’re designing without constraints, decision-making is torture because there’s always going to be more than one right choice. 
-
-*– Refactoring UI*
 
 <!--
 ## Foundations: Constraints
@@ -161,30 +155,39 @@ Comment: This is another great truth I learned from Refactoring UI.  What this r
 Comment: The foundations get defined into what can commonly be defined as "design tokens".  Basically re-usable bits/atoms of design if you will.  Sort of a dictionary/glossary of the design aspects
 
 Comment:  For the non-designer like me... it means we can kind of start "painting by number"
-
 -->
+
+<!-- _class: lead -->
+> When you’re designing without constraints, decision-making is torture because there’s always going to be more than one right choice. 
+
+*– Refactoring UI*
 
 ---
 
 ## Foundations: Practical Application
-
-<!-- _class: lead -->
-**For the developer**:  Foundational constraints/design tokens are often best expressed as CSS variables and utility classes.
 
 <!--
 ## Foundations: Practical Application
 
-Comment: As we start looking at the different foundations, you'll see that there are benefits to defining these things in these ways because they can allow us more easily maintain the design system in our code.  Also, as you become more fully aware of the design tokens.... your become much more effect.
+Comment: As we start looking at the different foundations, you'll see that there are benefits to defining these things in these ways because they can allow us more easily maintain the design system in our code.  Also, as you become more fully aware of the design tokens.... your become much more effective.
 
 Comment: Another chief goal of the design system, or many it;s just a natural result, is consistent developer experience when building UI's!  This isn't something to sleep on.  As I hope you'll see.  The foundations of a design system will help you move fast and build things as a developer.
 
 Comment: As we move forward, we're going to see a VERY simple design system start coming to life.
-
 -->
+
+<!-- _class: lead -->
+**For the developer**:  Foundational constraints/design tokens are often best expressed as CSS variables and utility classes.
 
 ---
 
 ## Foundations: Typography
+
+<!--
+Comment: No system has just one font size and style!  This very simple example we see how different font sizes might be defined.  But systems might also define font-weight, different font-families, etc.
+
+Comment: In these simple css and html examples we start to get a taste for how the design system can be implemented via css variables and utilities classes.  Notice we have 5 variables for font-size.  Then we have can have a utility class  for each, where it simply uses the css variable.
+-->
 
 <div class='grid-2-col'>
 <div>
@@ -218,31 +221,27 @@ Comment: As we move forward, we're going to see a VERY simple design system star
 </div>
 </div>
 
-<!--
-
-Comment: No system has just one font size and style!  This very simple example we see how different font sizes might be defined.  But systems might also define font-weight, different font-families, etc.
-
-Comment: In these simple css and html examples we start to get a taste for how the design system can be implemented via css variables and utilities classes.  Notice we have 5 variables for font-size.  Then we have can have a utility class  for each, where it simply uses the css variable.
-
--->
-
 ---
 <!-- _class: lead -->
 ## Foundations: Colors
 
-You need **MORE COLORS** than you think! 
-
 <!--
-
 Comment: Here's another truth.  You're gonna need way more colors than you think!  Don't let those online color palettes fool you... You cannot build a UI using only 3-5 colors!  You need many more colors than you think.
 
 Comment: You can probably get by with 7-9 "base" colors,  but you need varying shades of each.  You'll see what I mean.
-
 -->
+
+You need **MORE COLORS** than you think! 
 
 ---
 
 ## Foundations: Primary Shades
+
+<!--
+Comment:  Lets start with the primary shades.  These with be used by various controls and likely also common typography patterns.  Buttons are the obvious example.  But various shades of primary color are also needed for user interactions.  Think hover events, animations, etc.  They popup in subtle but amazing ways.
+
+Question:  Ok... so knowing that... can you imagine you're web application with just a single primary color?  Ick!
+-->
 
 <div class='grid-2-col'>
     <div>
@@ -277,17 +276,17 @@ Comment: You can probably get by with 7-9 "base" colors,  but you need varying s
 </div>
 </div>
 
-<!--
-
-Comment:  Lets start with the primary shades.  These with be used by various controls and likely also common typography patterns.  Buttons are the obvious example.  But various shades of primary color are also needed for user interactions.  Think hover events, animations, etc.  They popup in subtle but amazing ways.
-
-Question:  Ok... so knowing that... can you imagine you're web application with just a single primary color?  Ick!
-
--->
-
 ---
 
 ## Foundations: Grey Shades
+
+<!--
+Comment: Grey's are the foundation of may things in your application.  It's typically the default body back ground, borders, dividers between elements, and its the basis for most text colors!
+
+Question:  Now imagine you building a page for a new feature in your system or a new component.  You know you need a grey background, and a border, and there is some text.  Given a blank slate what do you choose?  Color is a wide spectrum.
+
+Question:  Now imagine you have a design system in place with 9 predefined values.  Picking the colors to use becomes much easier.  You can quickly toggle between options to find the color your looking for!
+-->
 
 <div class='grid-2-col'>
 <div>
@@ -324,20 +323,15 @@ Question:  Ok... so knowing that... can you imagine you're web application with 
 </div>
 </div>
 
-
-<!--
-
-Comment: Grey's are the foundation of may things in your application.  It's typically the default body back ground, borders, dividers between elements, and its the basis for most text colors!
-
-Question:  Now imagine you building a page for a new feature in your system or a new component.  You know you need a grey background, and a border, and there is sometext.  Given a blank slate what do you choose?  Color is a wide spectrum.
-
-Question:  Now imagine you have a design system in place with 9 predefined values.  Picking the colors to use becomes much easier.  You can quickly toggle between options to find the color your looking for!
-
--->
-
 ---
 
 ## Foundations: Accent Shades
+
+<!-- 
+Comment:  Previously mentioned I was figuratively color blind.  But I can design with a colors laid out like this.  But, as we wrap up this portion on colors, you can see its pretty easy to know what to do regarding colors
+
+Steve Martin wardrobe bit?
+-->
 
 <div class='grid-2-col'>
 <div>
@@ -367,14 +361,6 @@ Question:  Now imagine you have a design system in place with 9 predefined value
 
 </div>
 </div>
-
-<!-- 
-
-Comment:  Previously mentioned I was figuratively color blind.  But I can design with a colors laid out like this.  But, as we wrap up this portion on colors, you can see its pretty easy to know what to do regarding colors
-
-Steve Martin wardrobe bit?
-
--->
 
 ---
 
@@ -440,12 +426,8 @@ Be sure to mention how Kori will probably be elaborating on this topic next.
 
 # Components
 
-Lego bricks used to compose the user experience.
-
-Are created from the design system's **foundations**. 
-
 <!--
-Comment: Now, as developers in the year 2024, we all know what components are.  They're the basic building blocks of our web apps.  Buttons, textboxes, dropdowns, and other inputs.  Header and side navigation, links, etc.  
+Comment: Now, as developers in the year 2024, we all know what components are.  They're the basic building blocks of our web apps.  Buttons, textbox, dropdowns, and other inputs.  Header and side navigation, links, etc.  
 
 Comment:  One chief goal of components is to bring consistency to the elements users interact with on a regular basis.  The buttons all look and feel the same.  They have the same user experience.  Dropdowns or date pickers offer the same interactions across all pages.
 
@@ -453,6 +435,10 @@ Comment: As we continue, I'll show a few examples of how components are created 
 
 Comment:  As noted at the beginning of the talk, I plan to move very fast.  Conceptually I this is pretty straightforward, but I think you'll be able to keep up.  If not, we can talk about it in detail at the end.
 -->
+
+Lego bricks used to compose the user experience.
+
+Are created from the design system's **foundations**. 
 
 ---
 
@@ -595,19 +581,19 @@ Question:  What do you noticed about this implementation?  That's right you get 
 <!-- _class: lead -->
 # What are Patterns?
 
-Reusable combination of the design system's **components** that are composed using a layout that adheres to the design system's **foundations**.
-
 <!--
 Comment:  When I started I said there were 3 main areas of a design system we'd focus on today.  Foundations, Components, and now we have patterns.
 
 Question: So, what are patterns?  
 
 Comment: If the goal of foundations and components is to bring a pretty low-level consistency to an application.  The goal of patterns is to bring high-level consistency to an application.  The look and feel of one page to another is familiar to the user.  For example, data collection/input workflows are consistent to one another.
-
-
 -->
 
+Reusable combination of the design system's **components** that are composed using a layout that adheres to the design system's **foundations**.
+
 ---
+
+## Pattern Example: Form
 
 <!--
 Comment:  Let's consider the typical form and compose a form using our design system.  We see the following:
@@ -617,8 +603,6 @@ Comment:  Let's consider the typical form and compose a form using our design sy
 
 Comment:  Let's look at the implementation
 -->
-
-## Pattern Example: Form
 
 <br>
 <div class='card'>
@@ -634,6 +618,8 @@ Comment:  Let's look at the implementation
 
 ---
 
+## Pattern Example: Form
+
 <!--
 Comment:  So... pretty straight forward... We use our place our design system components within a card.  The card contains a form – Yes I know its a class on a div and not a form element – humor me. The form then can simply apply a grid layout using our foundation spacing....
 
@@ -641,8 +627,6 @@ Comment:  Boom.  Done deal.  We have an input form pattern.  From a ux perspecti
 
 Comment:  Now, this yet again a contrived example.  But maybe your application has numerous workflows.  It's probably best if the visuals for those work flows are consistent across features in the application.  Not only does the user feel "at home" regardless to what page they are on... consistent patterns make development faster too!
 -->
-
-## Pattern Example: Form
 
 ```html
 <style>
