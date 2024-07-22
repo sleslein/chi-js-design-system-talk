@@ -75,15 +75,16 @@ _**I want thing VERY CLEAR ...**_
 <!-- 
  # I'm not a designer
 
-Comment: I'm pretty much color blind.  Not literally... figuratively. Some people do have a genetic condition that prevents them from seeing colors in the normal way.  That's not me.  I just have bad taste in colors. So, if you came thinking I could teach you good some good design tips... You are going to be disappointed!
-
-Comment: Just as a brief aside and to offer more proof that I'm a developer... I created this whole presentation in markdown and used a tool called "marp" to compile it to HTML.  I really didn't want to futs around with Power Point or Google Slides!
-
-Question:  So, if I'm not a designer.  And I am not good at design!  Why am I here?  
-
-Comment: Well, I simply want to share with you what I've learned about design systems. To show how they not only help build quality user experiences but also how they help improve the developer experience as well!
-
-Narrative:  This story begins with a self aware understanding that I am not a designer.  I was working on web related side project for a church thing. I slapped the key board and started building a thing.  I got to a decent point... looked at what I had and was like.... wow.... this does not look real good.  
+- Pretty much color blind
+    - Figuratively, not literally, joke here
+- I'm a developer.  I like Plain text
+    - Made this with markdown
+- If not a designer, why here?
+    - The good news about DS is they help developers!
+- My Story with 
+    - Church story side project
+    - Functional but UGLY!.... UGLY! Song ref? 
+    - I needed to get better
 
 -->
 <!-- _class: lead -->
@@ -243,9 +244,11 @@ A design system is a box of tools used to build consistent user experiences.  Th
 ## Foundations: Colors
 
 <!--
-Comment: Here's another truth.  You're gonna need way more colors than you think!  Don't let those online color palettes fool you... You cannot build a UI using only 3-5 colors!  You need many more colors than you think.
+- Another truth learned from refactoring UI
+- You need more colors than you think!
+- Don't be fooled by online color palette Generator
+- 3-5 colors is not enough!
 
-Comment: You can probably get by with 7-9 "base" colors,  but you need varying shades of each.  You'll see what I mean.
 -->
 
 You need **MORE COLORS** than you think! 
@@ -257,7 +260,10 @@ You need **MORE COLORS** than you think!
 - Yes, even I know this is bad
 - Now.... if you're a front end engineer
     - Let me recommend you buy the Refactoring UI book!
+- The users of our software don't want Lego Duplo
 
+- Need 7-9 base colors, multiple shades of each.
+- Lets have a look at another very simple example
 -->
 
 <!-- _class: lead -->
