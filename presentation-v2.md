@@ -13,9 +13,14 @@ html: true
 **About Design Systems**
 
 <!-- 
-Comment: Hi!  I'm Shea Leslein, and I'm here to share the good news about design systems with you!
 
-OPENING NOTE!:  I'd love to make this very interactive. But I am extremely mindful of there are 3 more speakers after me, and a big reason we all come here is to chat and network with others.  So I'm planning to field ZERO questions until I conclude my schpeel.  If there is time left - MATYBE – I can field a couple.  Regardless, I'd love meeting you all after so feel free to come see with any questions!
+Thanks you's: 
+- Thank Heather and Bitovi
+- Thanks Jessica and Slolam Build 
+
+IMPORTANT NOTE: No Questions!  Keep time for networking at the end!
+
+Comment: Hi!  I'm Shea Leslein, and I'm here to share the good news about design systems with you!
 
 Comment:  Lets get Started!
 
@@ -23,19 +28,19 @@ Comment:  Lets get Started!
 
 ---
 
-# About Me
+<!-- # About Me
 
-<!-- 
+
 Fam: Married 16 years, 4 kids, 15, 14, 12, 10
 
 Comment: I think community is SO important.  
-  - Thank Heather and folks and Soloam Build for hosting
-  - Thank FTL
+  - Thank Heather for coordinating our meetings and Jessica and the folks here at Soloam Build for hosting
+
     
 Joke: The title of this talk as actually inspired by something my Pastor said during a sermon. So, if you ever meet Pastor Adam waters, from Grace Bible Church, please don't tell him I day dream during his sermons :smile:
 
 Comment:  Now, I also like listening to podcasts when I walk the dog.  This seemingly random fact plays a key role in the story I will share today.
- -->
+
  
 Personal Stuff:
 - Meet the Fam!
@@ -45,6 +50,8 @@ Personal Stuff:
 ![bg right](IMG_3296.JPG)
 
 ---
+
+ -->
 
 # About Me: Professional Stuff
 
@@ -78,10 +85,6 @@ Comment: Well, I simply want to share with you what I've learned about design sy
 
 Narrative:  This story begins with a self aware understanding that I am not a designer.  I was working on web related side project for a church thing. I slapped the key board and started building a thing.  I got to a decent point... looked at what I had and was like.... wow.... this does not look real good.  
 
-Around that time, an ebook by Adam Wathan (the creator of TailwindCSS) had been mentioned on multiple podcasts. The book is called "Refactoring UI and promised to be a "design for developers" book. Well, in my moment of design humilitation.... I mean humility I decided to drop the $150 on the book.  I know that it seems like a lot of money.... but I can say without hesitation, it totally delievers.  If your a developer who wants to get a better sense of how to do design... buy this book!
-
-To this day, I can remember the moment that this book said something that struck be right between the eyes!
-
 -->
 <!-- _class: lead -->
 # I am **NOT** a designer!
@@ -91,19 +94,32 @@ I am a **developer**!
 
 ---
 
+<!-- 
+
+- Heard about this ebook, that was supposedly "Design for Developers"
+- Checked out the 2 free Chapters and learned valuable nuggets
+- OK!  I'm gonna Drop the $150 on the book!
+- Totally worth its BTW.  Available here
+
+-->
+
+<!-- _class: lead -->
+E-Book available @
+_[refactoringui.com](https://refactoringui.com)_
+
+![bg left](refactoring-ui.png)
+
+---
+
 <!--
 # Systemize everything
 
-Comment:  Here's a main point from Refactoring UI
-Read: It.
+- Remember day I read this text.
+- READ: Systemize Everything:  
+- Formative moment, Design as a system? Wait... design systems are a thing!
+- I've got to learn about this! 
+- Today, I share just a little bit about what I've learned about design systems.
 
-Narrative: Reading this was a formative moment for me.  When I read this disparate ideas and things I had been hearing started clicking together.  I had this revelation... wait.... design is a system?~!?!?  Then, wait!?!? We have a design system at work!  
-
-Design systems are a thing!  I have to learn about and understand these things for me.  When I read this disparate ideas and things I had been hearing started clicking together.  I had this revelation... wait.... design is a system?!?!?  Then, wait!?!? We have a design system at work!  
-
-Design systems are a thing!  I have to learn about and understand these things!
-
-So, here I stand be before you today.... with something to share!
 -->
 
 <!-- _class: lead -->
@@ -116,13 +132,18 @@ So, here I stand be before you today.... with something to share!
 <!-- 
 # What is a design system
 
-Comment:  This definition is from my good friend Nath.  She is a designer.  She leads the design system efforts at FreeWheel.  She's awesome!  Ask Nath to wave.  If you want to learn about how to be a better designer talk to her!
+- Definition is from Nath!
+    - Wave Nath
+    - Talk to her, she's super cool!
 
-Comment:  This definition includes more than just the what a design system is... it also answers the important "WHY" design systems questions.  Why? Because it leads to consistent user experiences.  
+- Describes the what, but also the WHY
+    - Consistent UX
+    - Also found improved DX!
 
-Comment:  But consistent UX isn't the only benefit.  Design systems have amazing positive impact on developers to!  As you'll see, a design system can turn allow any old schlub like me to implement good designs very quickly!  
+- Main parts: Foundations, Components, Patterns
+    - Today, briefly on foundations only
+    - Foundations are what components patterns are built on
 
-So, given the time constraints today, we'll focus on the foundations.
 -->
 
 # What is a Design System?
@@ -137,11 +158,22 @@ A design system is a box of tools used to build consistent user experiences.  Th
 <!--
 ## Foundations: Constraints
 
-Comment: This is another great truth I learned from Refactoring UI.  What this really boils down to is that we predefine all of these foundational areas.  
+- There is freedom in .... they are liberating.  
+- I see some of you wincing at that word "constraints"!  
+    - You want to build without limitation!  
+    - I get it! As developers we love me unencumbered.
 
-Comment: The foundations get defined into what can commonly be defined as "design tokens".  Basically re-usable bits/atoms of design if you will.  Sort of a dictionary/glossary of the design aspects
+- There is freedom in constraints!  What do I mean?
+    - Reduce decision fatigue
 
-Comment:  For the non-designer like me... it means we can kind of start "painting by number"
+- Illustration Restaurant Menu
+    - Cheesecake factory 200+ items on their menu! 
+    - Local mexican restaurant.... 7 items, 8 if count the combo
+
+- Which is easier to choose?  
+    - Yea the baby burrito at the local mexican joint?  Super easy choice!
+    - Amazing too!
+
 -->
 
 <!-- _class: lead -->
@@ -153,13 +185,18 @@ Comment:  For the non-designer like me... it means we can kind of start "paintin
 
 <!-- 
 # Foundations 
-Comment: These are the foundations of a design system. Color is pretty self explanatory.  Typography refers to the text elements of your UI; the font and size of your text. Spacing refers to the white space elements.  In CSS terms, thing padding, margins, flex/grid gaps etc. Any system of even a small significance is going to logos, and icons too. 
 
-Comment:  One chief goal of the foundations is to ensure visual consistency across the whole system.  Design system and application system.  
+- Question: What do we constrain?
+    - Typography:  Fonts and font sizes
+    - Colors:  Pretty self explanatory:
+    - Spacing: margin, padding, gaps in flex/gird containers
 
-Note: We will focus on Typography, colors, and spacing.
+- One chief goal of the foundations is to ensure visual consistency across the whole system.  Design system and application system.  
 
-Comment:  Seems pretty straight forward right?  I think you'll see the picture is bigger than you might realize.
+- We will focus on Typography, colors, and spacing.
+
+- Seems pretty straight forward right?  -
+   - Bigger picture than you realize.
 -->
 
 # What do we constrain?
@@ -174,9 +211,19 @@ Comment:  Seems pretty straight forward right?  I think you'll see the picture i
 ## Foundations: Typography
 
 <!--
-Comment: No system has just one font size and style!  This very simple example we see how different font sizes might be defined.  But systems might also define font-weight, different font-families, etc.
 
-Comment: In these simple css and html examples we start to get a taste for how the design system can be implemented via css variables and utilities classes.  Notice we have 5 variables for font-size.  Then we have can have a utility class  for each, where it simply uses the css variable.
+- Need more than one font-size.
+    - Headings different size from labels, navigation inputs
+
+- Too man is not great
+    - Decision fatigue
+    - too subtle for users to understand intent
+
+- This example
+    - We've got 5
+    - All designs are limited to these 5
+    - Fairly standard
+    - Can enhance further with colors, decorators like bold, italics, etc
 -->
 
 <div>
@@ -205,12 +252,43 @@ You need **MORE COLORS** than you think!
 
 ---
 
+<!-- 
+- You end up with something that looks like this...
+- Yes, even I know this is bad
+- Now.... if you're a front end engineer
+    - Let me recommend you buy the Refactoring UI book!
+
+-->
+
+<!-- _class: lead -->
+![height:600px](few-colors.png)
+_Refactoring UI_
+
+---
+
 ## Foundations: Many Shades
 
 <!--
-Comment:  Lets start with the primary shades.  These with be used by various controls and likely also common typography patterns.  Buttons are the obvious example.  But various shades of primary color are also needed for user interactions.  Think hover events, animations, etc.  They popup in subtle but amazing ways.
 
-Question:  Ok... so knowing that... can you imagine you're web application with just a single primary color?  Ick!
+- We need many shades
+
+- Primary and Accent colors
+    - For buttons, text,
+    - Use to draw the users attention 
+    - add floushies of style that can subtly bring joy and purpose to the UX
+
+- Grays
+    - Most, of the page. 
+    - Nearly all text
+    - Input borders, dividers, etc 
+
+- Notice how these are labeled numerically with numbers. 
+    - Artifact of what designers call Design Tokens
+    - Shared language for people, glossary or dictionary
+    - Numbers show progression
+
+- Allow engineers to "paint by number"
+
 -->
 
 <div class='grid-2-col'>
@@ -244,26 +322,44 @@ Question:  Ok... so knowing that... can you imagine you're web application with 
 ## Foundations: Spacing
 
 <!--
-Comment:  Moving on to spacing we see more of the same.  Pre-defined values for how to space things.  These are the intervals we use for padding, margins, gaps, etc. 
 
-Example:  We'll see some tangible examples in a bit, but know these are the values you use to separate components.  For example, you might used the 32px XL spacing between input fields, or a small 8px spacing between a label and an input.
+- Usage: Margins, Padding, gap within grid/flex.
+- Visual spacing is important and should be consistent.
+- Very simple spacing scale outline the menu options.
+    - Like a wardrobe.... just pick the size that fits.
 
-Comment:  So, we've just highlighted 3 key area's of a design systems foundation: Typography, Colors, and spacing.  The examples I've given are in fact a very simple design system.  
-
-Question:  So what can you do with these?  Quite a lot in fact.
+- Hope you see how DX is imporved.
 -->
 
-<div>
-    <div class='spacing-demo sm'></div> Small Spacing - 8px <br> 
-    <div class='spacing-demo md'></div> Medium/Default Spacing - 16px<br> 
-    <div class='spacing-demo lg'></div> Large Spacing - 24px<br> 
-    <div class='spacing-demo xl'></div> XL Spacing - 32px<br> 
-    <div class='spacing-demo -2xl'></div> 2 XL Spacing - 64px<br> 
-    <div class='spacing-demo -3xl'></div> 3 XL Spacing - 128px<br> 
+<div class='spacing-demo-container'>
+    <div class='spacing-demo sm'></div> <span>Small Spacing</span>
+    <div class='spacing-demo md'></div> <span> Medium/Default Spacing</span>
+    <div class='spacing-demo lg'></div> <span>Large Spacing </span>
+    <div class='spacing-demo xl'></div> <span>XL Spacing </span>
+    <div class='spacing-demo -2xl'></div> <span>2 XL Spacing </span>
+    <div class='spacing-demo -3xl'></div> <span>3 XL Spacing </span>
 </div>
 
 ---
 
+<!--
+- If not, quick story based on my experience
+- Timing: While reading Refatoring UI
+- Project: large group of devs, designers
+- Problems: Slow dev time. Bike sheding
+- Solution: 
+    - Follow design system!
+    - Dialogs with designers
+- Result: 
+    - Improved DX, 
+    - productivity up!
+    - Better relationships with designer
+
+- Transition:
+    - Land the plane:
+    - Defined simple design system using foundations
+    - What can we build?
+-->
 
 <!-- _class: lead -->
 
@@ -273,50 +369,23 @@ Question:  So what can you do with these?  Quite a lot in fact.
 
 and sound **foundations** make life better!
 
-<!--
-
-Narrative: 
-
-Time for another quick story!
-
-Around the same time I was reading "Refactoring UI", I was working on a fairly large project with several developers, and some really awesome designers!
-
-On the UI development we were doing more than our fair share of "bike shedding" – you know, arguing about seemingly small trivial things.  A pixel or two here or there, specific hex values for colors, etc.  In PR's questions would arise... "Why are you using 7px of padding here? For this feature before I used 12px." . Or, "Is this the right shade of red?  I used the following hex value last week when I implemented the order feature." 
-
-Yes, you've all know what I'm talking about.  As developers we "bike shed" all the time. And it reduces our productivity.
-
-In these discussions, we had lost sight of a very important thing!  We had a design system!.  It defined all of these things for us!  
-
-Once identified what the right foundations were.  Life just got better.  UX was more consistent. We had a shared nomenclature for our design discussions.  PR's got merged faster. Product and design folks opened fewer tickets to fix design related things.
-
-Now, we'd still find inconsistencies, but more often than not they's appear in Figma or other designs tools.  Now that we were equipped with a better understanding of the design system, we were empowered to start discussions with the designers. During with time, they were able to share their knowledge with us.... well with me. They shared key knowledge with us, and it's helped us build good relationships with them.
-
-Be sure to mention how Kori will probably be elaborating on this topic next.
-
-Comment:  So, let me go back to the foundations we looked at before and start land this plane... So far we've actually defined some fairly simple design constraints.... what can you do with these?
-
--->
-
 ---
 
 <!--
-Comment:  Quite a bit actually!
-
-Comment: So, lets look at this example! Here's we have a fair standard, but attractive and functional data collection form!  All built using ONLY the foundations we just spoken about.  
-
-Comment:  Notice,
-- The Sign up form heading, is using our large font size and a shade of the primary colors
-- The spacing between all of the input fields is consistent, using the medium spacing
-- The button also uses a pre-defined color.
-- Finally... the user interactions, hover, also using the foundation colors we defined above.
+- Quite a bit actually!
+- Simple "signup" form
+- Using all of the foundations we noted above
+    - small spacing between elements.
+    - Primary shades on the Button and heading
+    - using medium text size.
 
 -->
 
 <div class='card'>
     <h1>Sign-up Form</h1>
     <div class="form">
-        <label>First Name: <input type="text" /></label>
-        <label>Last Name: <input type="text" /></label>
+        <label>First: <input type="text" /></label>
+        <label>Last: <input type="text" /></label>
         <label class="two-col">Email Address: <input type="text" /></label>
         <label class="two-col">Subscribe to my newsletter: <input type='checkbox' /></label>
         <button class="primary">Sign Me Up!</button>
@@ -329,15 +398,13 @@ Comment:  Notice,
 ---
 
 <!--
-Comment:  So, to wrap it up. 
-1. Constraints are good.
-2. D
-
-Comment: As you leave today I hope you have a better understanding and appreciation for the design system.  If you've never considered you design system before, maybe now you can see how it impacts your development work.
-
-Comment:  Finally... designers are your friend.  The systems they work hard to create isn't only a benefit for the user, but also you as the developer.  They are cool people and can teach use developers some things and help us help users.
-
-THANK YOU! I know I moved really fast, and you probably have questions.  Please stop by to see me later.  I'd love to meet you and answer any questions you have.  So long as you don't want me to tell you how to choose a color palette for your next big idea!  Remember, I'm figurative color blind.
+- Good news
+    - Design systems don't just help provide a consistent UX
+    - Freedom of constraints also improves DX
+    - Improved development speed.
+- Being equipped with knowledge of the DS
+    - Helps bring us into a better relationship with designers
+    - They share their knowledge with us
 
 -->
 # To Summarize...
