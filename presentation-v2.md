@@ -422,7 +422,9 @@ First, **as a developers,** design systems offer:
 Second, high five a **designer** and make them a friend
 
 ---
-
+<!--
+- Good... I think we're just under 20 minutes!
+-->
 <!-- _class: lead -->
 # Thanks!
 
